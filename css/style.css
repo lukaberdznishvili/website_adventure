@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+a, li{
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    
+
+}
+.logo{
+    cursor: pointer;
+}
+.nav___links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav___linksna{
+    transition: all 0.3s ease 0s;
+}
+
+.photo{
+    width: 100%;
+    padding-top: 10px;
+    height: 550px;
+}
+.text1{position: absolute;
+    font-size: 50px;
+}
+.box1{
+    border: 10pc;
+    border-color: black;
+    width: 118px;
+    height: auto;
+    padding-top: 100px;
+}
+.text2{
+    font-size: 20px;
+    color: black;
+    display: table;
+    clear: both;
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    box-shadow: -1px 0 10px #E7DADA;
+    cursor: pointer;
+    
+}
+.img1 #zoom-in img{
+transform: scale(3);
+transition: 0.3s ease-in-out;
+}
+.img #zoom-in:hover{
+    transform: scale(1.5);
+}
+.txt1{
+    width: 300px;
+}
+.t1{
+    display: block;
+    margin: 0 auto;
+}
+.container{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 228px;
+}
+.onphoto{
+    text-align: center;
+    
+}
+.onphoto1{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
